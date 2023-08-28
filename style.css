@@ -1,0 +1,149 @@
+body {
+    height: 100vh;
+    background: #69fae4;}
+    
+    h1{font-size: 80px;
+      font-family: 'Rock Salt', cursive;
+      margin-top: 0px;
+      animation: pulse 1.5s infinite;
+      }
+      @keyframes pulse {
+        0% {
+          color:rgb(41, 196, 217);
+        }
+        100% {
+          color:#ffffff
+        }
+      }
+  h2{
+    margin-left: 30px;
+    font-family: 'Rock Salt', cursive;
+    color: #ffffff;
+  }
+   h3{
+    font-size: 70px;;
+        font-family: 'Hepta Slab', serif;
+          color: #ffffff;
+          font-size: 20px;
+        }
+  .header {
+    height: 350px;
+    text-align: center;
+    background-color: rgb(41, 196, 217);
+    color:white;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  li {
+    display: inline;
+  }
+  #homework {
+    background-color: #041982;
+    height: 25px;
+    width: 250px;
+    margin:15px;
+    padding:25px 10px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  }
+    #newtask {
+    position:fixed;
+      top: 434px;
+    height:100px;
+    width: 305px;
+    background-color: #041982;
+    width:bh 250px;
+    padding: 30px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  }
+  #newtask input {
+    width: 80%;
+    height: 45px;
+    font-family: 'Rock Salt', cursive;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: black;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+  }
+  #newtask input:focus {
+    outline: none;
+    border-color: #ffffff;
+    border-radius: 5px;
+    font-family: 'Hepta Slab', serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    cursor: pointer;
+    outline: none;
+  }
+  #tasks {
+    padding: 20px 20px;
+    border-radius: 5px;
+    width: 90%;
+    height: 50px;
+    left: 100px;
+  }
+  .task {
+    background-color: #ffffff;
+    height: 50px;
+    padding: 15px 10px;
+    margin-top: 20px;
+    border-bottom: 2px solid #d1d3d4;
+    cursor: pointer;
+  }
+  .task span {
+    font-family: 'Rock Salt', cursive;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .task button {
+    background-color: cyan;
+    color: #ffffff;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border: solid 3px;
+    cursor: pointer;
+    outline: none;
+  }
+  .completed {
+    text-decoration: line-through;
+  }
+  .showmystuff{
+    display:flex;
+    align-content: center;
+    margin-left: 360px;
+  }
+  .container {
+display:flex;
+
+  }
+  #showhome{
+    margin-top: 60px;
+    margin-left: 20px;
+    border:#041982 4px solid;
+  }
+  #showwork {
+    margin-top: 60px;
+    border:#041982 4px solid;
+  }
+  .footer {
+    background-color: #d1d3d4;
+    text-align: center;
+    margin-top: 30px;
+    padding:25px;
+    height: 60px;
+    width: 100%;
+    color:#041982
+  }
+  

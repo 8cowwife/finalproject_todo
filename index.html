@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Simple To Do List</title>
+  <!--Google Font-->
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@600&display=swap" rel="stylesheet">
+  <!--Font Awesome CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <!--Stylesheet-->
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header">
+    <h1>DO IT NOW!</h1>
+    <h3>Getting Stuff Done at Home and at Work</h3>
+  
+<ul>
+  <li> <a href="#more">More Lists</a></li>
+  <li> <a href="#contact">Contact Me</a></li>
+</ul>
+</div>
+<div class="container"> 
+<div>
+  <h2>Category:</h2>
+  <div id="homework">
+    
+    <label for="Add">Category: </label>
+    <select onclick="selectCategory()" name="Add" id="Add">
+      <option value="Home">Home</option>
+      <option value="Work">Work</option>
+    </select>
+  </div>
+</div>
+<div class="showmystuff">
+  <h2>Show My Tasks:</h2>
+  <div id="showhome">
+  <h3> Home Tasks </h3>
+</div>
+<div id="showwork">
+  <h3> Work Tasks </h3>
+</div>
+ </div>
+ </div>
+
+  <h2>Add Task:</h2>
+  <div id="newtask">
+    <input type="text" placeholder="Task to be done..">
+    <button id="push">Add</button>
+  </div>
+  <div id="tasks"></div>
+  </div>
+
+
+
+
+  <div class="footer">
+    <h3>Melanie Montgomery 2023</h3>
+  </div>
+
+  <!--Script-->
+  <script src="script.js"></script>
+</body>
+
+</html>
